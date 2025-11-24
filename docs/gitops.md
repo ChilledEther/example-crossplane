@@ -4,7 +4,7 @@ GitOps is a process for using code as your source of truth. A controller or auto
 
 # 💹 Diagram
 
-![image](..\assets\gitops.png)
+![image](../assets/gitops.png)
 
 # 💎 Benefits
 
