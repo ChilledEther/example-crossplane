@@ -105,6 +105,12 @@ This requires developers to have additional training and increases risk for secu
 
 ![high-level-abstraction](..\assets\gitops-high-level-abstraction.png)
 
+Ownership model:
+
+* `red` - Software developer
+* `blue` - Platform team
+* `green` - Platform team
+
 # 🗝️ Least Privilege
 
 In this model, it's then up to the Platform team to ensure that permissions are following least privilege.
@@ -118,3 +124,10 @@ This removes the need for developers to worry about credentials and how things a
 As observability is a very big thing, using a platform for observing things are operating correctly is paramount to a successful platform.
 
 It's possible to provision appropriate resources in an observability platform using this same methology whereby on a provision of the high level abstraction, a monitor is also deployed.
+
+# 🥅 End Goal
+
+* Developer team love the platform because it's so easy
+* Platform team has a way to iterate fast and implement features with guard rails
+* Security team is happy as they only have a single channel to go to to ensure that all applications are secure
+* Business is happy because products are reaching customers faster, more reliably, and less incidents
