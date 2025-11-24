@@ -6,4 +6,4 @@ It abstracts away a lot of the pain from product teams and developers and moves 
 
 This allows the platform team to bake in security, governance, efficiency, optimizations, changes, and much more when doing this method.
 
-It can be paired with a GitOps approach so that the deployment is controlled via an operator, controlling drift and provisioning/deprovisioning.
+It can be paired with a GitOps approach so that the deployment is controlled via an operator, controlling drift and provisioning/deprovisioning.''
