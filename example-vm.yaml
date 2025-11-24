@@ -1,0 +1,10 @@
+---
+apiVersion: mycompany.com/v1alpha
+kind: VirtualMachine
+metadata:
+  name: sample-vm
+spec:
+  cpu: 4
+  memory: 8Gi
+  diskSize: 100Gi
+  osImage: ubuntu-24.04
