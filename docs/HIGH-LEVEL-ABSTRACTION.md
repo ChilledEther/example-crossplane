@@ -102,3 +102,19 @@ Overall, the user experience for the consumer is much better, because no additio
 In the event the developer is responsible for their infrastructure, they would then need to update their workflows and configuration to include the new providers in addition to the existing.
 
 This requires developers to have additional training and increases risk for security.
+
+![high-level-abstraction](..\assets\gitops-high-level-abstraction.png)
+
+# 🗝️ Least Privilege
+
+In this model, it's then up to the Platform team to ensure that permissions are following least privilege.
+
+Because Kubernetes has a concept of namespaces, which is an isolated scoped partition inside the cluster, it allows the platform team to ensure that each moving part inside kubernetes is federated correctly with cloud providers or between namespaces.
+
+This removes the need for developers to worry about credentials and how things are provisioned.
+
+# 👁️ Observability
+
+As observability is a very big thing, using a platform for observing things are operating correctly is paramount to a successful platform.
+
+It's possible to provision appropriate resources in an observability platform using this same methology whereby on a provision of the high level abstraction, a monitor is also deployed.
