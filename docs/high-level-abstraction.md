@@ -103,7 +103,7 @@ In the event the developer is responsible for their infrastructure, they would t
 
 This requires developers to have additional training and increases risk for security.
 
-![high-level-abstraction](..\assets\gitops-high-level-abstraction.png)
+![high-level-abstraction](../assets/gitops-high-level-abstraction.png)
 
 Ownership model:
 
